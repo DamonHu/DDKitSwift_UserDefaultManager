@@ -11,18 +11,22 @@ import ZXUserDefaultManager
 
 func UIImageHDBoundle(named: String?) -> UIImage? {
     guard let name = named else { return nil }
-    guard let bundlePath = Bundle(for: ZXUserDefaultManager.self).path(forResource: "userDefaultManager-zxkit", ofType: "bundle") else { return UIImage(named: name) }
+    guard let bundlePath = Bundle(for: UserDefaultManagerZXKit.self).path(forResource: "userDefaultManager-zxkit", ofType: "bundle") else { return UIImage(named: name) }
     guard let bundle = Bundle(path: bundlePath) else { return UIImage(named: name) }
     return UIImage(named: name, in: bundle, compatibleWith: nil)
 }
 
 extension String{
     var ZXLocaleString: String {
-        guard let bundlePath = Bundle(for: ZXUserDefaultManager.self).path(forResource: "userDefaultManager-zxkit", ofType: "bundle") else { return NSLocalizedString(self, comment: "") }
+        guard let bundlePath = Bundle(for: UserDefaultManagerZXKit.self).path(forResource: "userDefaultManager-zxkit", ofType: "bundle") else { return NSLocalizedString(self, comment: "") }
         guard let bundle = Bundle(path: bundlePath) else { return NSLocalizedString(self, comment: "") }
         let msg = NSLocalizedString(self, tableName: nil, bundle: bundle, value: "", comment: "")
         return msg
     }
+}
+
+class UserDefaultManagerZXKit: NSObject {
+    
 }
 
 extension ZXUserDefaultManager: ZXKitPluginProtocol {
@@ -45,11 +49,13 @@ extension ZXUserDefaultManager: ZXKitPluginProtocol {
     public var isRunning: Bool {
         return false
     }
+    
+    public func willStart() {
+        ZXKit.hide()
+    }
 
     public func stop() {
 
     }
-
-
 }
 

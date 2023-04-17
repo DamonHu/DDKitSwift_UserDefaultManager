@@ -1,12 +1,12 @@
 PODS:
   - SnapKit (5.6.0)
   - SSZipArchive (2.5.4)
-  - ZXKitCore (2.0.2):
-    - ZXKitCore/core (= 2.0.2)
-  - ZXKitCore/core (2.0.2):
+  - ZXKitCore (2.0.3):
+    - ZXKitCore/core (= 2.0.3)
+  - ZXKitCore/core (2.0.3):
     - SSZipArchive
-    - ZXKitLogger (~> 4.0.0)
-    - ZXKitUtil
+    - ZXKitLogger (~> 4.0)
+    - ZXKitUtil (~> 4.0)
   - ZXKitLogger (4.0.5):
     - ZXKitLogger/core (= 4.0.5)
   - ZXKitLogger/core (4.0.5):
@@ -36,7 +36,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SSZipArchive: 285b618a158ebc421039c22db5b77d345c7c03db
-  ZXKitCore: 7a67edfda54439ae7d81bbb40cd990f1c09bad2f
+  ZXKitCore: 78b3feec0cac10f1518e701e9c96fddf262e366a
   ZXKitLogger: 22f226509df679728bc8da7a7983d672cc9ccbae
   ZXKitUtil: 0d23a979cdc7a7f9df0722148a613986ef007288
   ZXUserDefaultManager: c2d3d20d81debdb36c6d5e10fa242be7cf6d0630
