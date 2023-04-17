@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-userDefaultManager-zxkit/Pods-userDefaultManager-zxkit-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/ZXKitCore/ZXKitCore.framework
+${BUILT_PRODUCTS_DIR}/ZXKitLogger/ZXKitLogger.framework
+${BUILT_PRODUCTS_DIR}/ZXKitUtil/ZXKitUtil.framework
+${BUILT_PRODUCTS_DIR}/ZXUserDefaultManager/ZXUserDefaultManager.framework
