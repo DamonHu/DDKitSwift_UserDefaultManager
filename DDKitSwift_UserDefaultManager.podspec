@@ -8,7 +8,7 @@ s.homepage = 'https://github.com/DamonHu/DDKitSwift_UserDefaultManager'
 s.authors = { 'DamonHu' => 'dong765@qq.com' }
 s.source = { :git => "https://github.com/DamonHu/DDKitSwift_UserDefaultManager.git", :tag => s.version}
 s.requires_arc = true
-s.ios.deployment_target = '11.0'
+s.ios.deployment_target = '12.0'
 s.resource_bundles = {
     'DDKitSwift_UserDefaultManager' => ['pod/assets/**/*']
 }
