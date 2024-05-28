@@ -1,0 +1,6 @@
+framework module Pods_DDKitSwift_UserDefaultManager {
+  umbrella header "Pods-DDKitSwift_UserDefaultManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

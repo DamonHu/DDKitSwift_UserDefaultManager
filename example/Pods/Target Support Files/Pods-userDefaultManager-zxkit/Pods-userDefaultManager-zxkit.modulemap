@@ -1,6 +1,0 @@
-framework module Pods_userDefaultManager_zxkit {
-  umbrella header "Pods-userDefaultManager-zxkit-umbrella.h"
-
-  export *
-  module * { export * }
-}
