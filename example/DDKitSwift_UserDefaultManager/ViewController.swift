@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.createUI()
-        DDKitSwift.regist(plugin: DDUserDefaultManager.shared)
+        DDKitSwift.regist(plugin: DDKitSwift_UserDefaultManager())
     }
 
     func createUI() {
