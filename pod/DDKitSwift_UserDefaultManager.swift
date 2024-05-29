@@ -28,6 +28,10 @@ extension String{
 open class DDKitSwift_UserDefaultManager: DDKitSwiftPluginProtocol {
     private var tool = DDUserDefaultManager.shared
 
+    public init() {
+        
+    }    
+    
     public var pluginIdentifier: String {
         return "com.ddkit.DDKitSwift_UserDefaultManager"
     }

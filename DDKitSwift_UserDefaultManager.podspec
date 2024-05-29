@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = 'DDKitSwift_UserDefaultManager'
 s.swift_version = '5.0'
-s.version = '3.0.1'
+s.version = '3.0.2'
 s.license= { :type => "MIT", :file => "LICENSE" }
 s.summary = 'UserDefaultManager plugin for ZXKit, build by ZXUserDefaultManager'
 s.homepage = 'https://github.com/DamonHu/DDKitSwift_UserDefaultManager'
