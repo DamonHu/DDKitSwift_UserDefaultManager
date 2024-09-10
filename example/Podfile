@@ -6,6 +6,6 @@ target 'DDKitSwift_UserDefaultManager' do
   use_frameworks!
 
   # Pods for DDKitSwift_UserDefaultManager
-	pod 'DDKitSwift/core', '~> 3.0.0'
-	pod 'DDUserDefaultManager', '~> 3.0.0'
+	pod 'DDKitSwift/core', '~> 3'
+	pod 'DDUserDefaultManager', '~> 3'
 end
