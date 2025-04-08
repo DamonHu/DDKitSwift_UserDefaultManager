@@ -7,6 +7,12 @@
 
 DDKitSwift_UserDefaultManager plugin for [DDKitSwift](https://github.com/DamonHu/DDKitSwift)， build with [DamonHu/DDUserDefaultManager](https://github.com/DamonHu/DDUserDefaultManager)
 
+## Resgist
+
+```
+DDKitSwift.regist(plugin: DDKitSwift_UserDefaultManager())
+```
+
 ## License
 
 This project is licensed under the MIT License, allowing you to freely modify and use it.
