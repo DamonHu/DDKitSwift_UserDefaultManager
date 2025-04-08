@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = 'DDKitSwift_UserDefaultManager'
 s.swift_version = '5.0'
-s.version = '3.0.3'
+s.version = '4.0.0'
 s.license= { :type => "MIT", :file => "LICENSE" }
 s.summary = 'UserDefaultManager plugin for ZXKit, build by ZXUserDefaultManager'
 s.homepage = 'https://github.com/DamonHu/DDKitSwift_UserDefaultManager'
@@ -13,7 +13,7 @@ s.resource_bundles = {
     'DDKitSwift_UserDefaultManager' => ['pod/assets/**/*']
 }
 s.source_files = "pod/*.swift"
-s.dependency 'DDKitSwift/core', '~> 3'
-s.dependency 'DDUserDefaultManager', '~> 3'
+s.dependency 'DDKitSwift/core', '~> 4'
+s.dependency 'DDUserDefaultManager', '~> 4'
 s.documentation_url = 'https://github.com/DamonHu/DDKitSwift_UserDefaultManager'
 end

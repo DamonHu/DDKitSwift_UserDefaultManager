@@ -26,8 +26,6 @@ extension String{
 }
 
 open class DDKitSwift_UserDefaultManager: DDKitSwiftPluginProtocol {
-    private var tool = DDUserDefaultManager.shared
-
     public init() {
         
     }    
@@ -52,12 +50,9 @@ open class DDKitSwift_UserDefaultManager: DDKitSwiftPluginProtocol {
         return false
     }
     
-    public func willStart() {
-        DDKitSwift.hide()
-    }
-    
     public func start() {
-        self.tool.start()
+        let vc = DDUserDefaultVC()
+        DDKitSwift.getCurrentNavigationVC()?.pushViewController(vc, animated: true)
     }
 
     public func stop() {

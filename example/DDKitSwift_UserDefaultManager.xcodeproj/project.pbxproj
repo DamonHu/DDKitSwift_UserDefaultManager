@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39B81C41EFE7CD5534ACBA4C /* Pods_DDKitSwift_UserDefaultManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1305487D25AD4AEC6685D3F7 /* Pods_DDKitSwift_UserDefaultManager.framework */; };
+		E45BEFF42DA501D1001F382D /* DDUserDefaultManager.png in Resources */ = {isa = PBXBuildFile; fileRef = E45BEFF32DA501D1001F382D /* DDUserDefaultManager.png */; };
 		E4AF4B8E29E96A2D00597C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF4B8D29E96A2D00597C93 /* AppDelegate.swift */; };
 		E4AF4B9029E96A2D00597C93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF4B8F29E96A2D00597C93 /* SceneDelegate.swift */; };
 		E4AF4B9229E96A2D00597C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF4B9129E96A2D00597C93 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		E4AF4B9729E96A2F00597C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AF4B9629E96A2F00597C93 /* Assets.xcassets */; };
 		E4AF4B9A29E96A2F00597C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AF4B9829E96A2F00597C93 /* LaunchScreen.storyboard */; };
 		E4AF4BA629ECE99700597C93 /* DDKitSwift_UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF4BA329ECE99700597C93 /* DDKitSwift_UserDefaultManager.swift */; };
-		E4AF4BA729ECE99700597C93 /* ZXUserDefaultManager.png in Resources */ = {isa = PBXBuildFile; fileRef = E4AF4BA529ECE99700597C93 /* ZXUserDefaultManager.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +24,7 @@
 		4E8356E1A8B74C58EE5D8E49 /* Pods-userDefaultManager-zxkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-userDefaultManager-zxkit.release.xcconfig"; path = "Target Support Files/Pods-userDefaultManager-zxkit/Pods-userDefaultManager-zxkit.release.xcconfig"; sourceTree = "<group>"; };
 		5B21A66EC0B52DAF6546FE2C /* Pods-DDKitSwift_UserDefaultManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDKitSwift_UserDefaultManager.release.xcconfig"; path = "Target Support Files/Pods-DDKitSwift_UserDefaultManager/Pods-DDKitSwift_UserDefaultManager.release.xcconfig"; sourceTree = "<group>"; };
 		CDC21CC0F683E88D273B96DE /* Pods-userDefaultManager-zxkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-userDefaultManager-zxkit.debug.xcconfig"; path = "Target Support Files/Pods-userDefaultManager-zxkit/Pods-userDefaultManager-zxkit.debug.xcconfig"; sourceTree = "<group>"; };
+		E45BEFF32DA501D1001F382D /* DDUserDefaultManager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DDUserDefaultManager.png; sourceTree = "<group>"; };
 		E4AF4B8A29E96A2D00597C93 /* DDKitSwift_UserDefaultManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDKitSwift_UserDefaultManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AF4B8D29E96A2D00597C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4AF4B8F29E96A2D00597C93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		E4AF4B9929E96A2F00597C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4AF4B9B29E96A2F00597C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4AF4BA329ECE99700597C93 /* DDKitSwift_UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDKitSwift_UserDefaultManager.swift; sourceTree = "<group>"; };
-		E4AF4BA529ECE99700597C93 /* ZXUserDefaultManager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZXUserDefaultManager.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		E4AF4BA429ECE99700597C93 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				E4AF4BA529ECE99700597C93 /* ZXUserDefaultManager.png */,
+				E45BEFF32DA501D1001F382D /* DDUserDefaultManager.png */,
 			);
 			path = assets;
 			sourceTree = "<group>";
@@ -178,9 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4AF4BA729ECE99700597C93 /* ZXUserDefaultManager.png in Resources */,
 				E4AF4B9A29E96A2F00597C93 /* LaunchScreen.storyboard in Resources */,
 				E4AF4B9729E96A2F00597C93 /* Assets.xcassets in Resources */,
+				E45BEFF42DA501D1001F382D /* DDUserDefaultManager.png in Resources */,
 				E4AF4B9529E96A2D00597C93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

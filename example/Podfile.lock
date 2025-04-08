@@ -1,28 +1,26 @@
 PODS:
-  - DDKitSwift/core (3.0.0):
-    - DDLoggerSwift (~> 5.0.0)
-    - DDUtils/ui (~> 5.0.0)
-    - DDUtils/utils (~> 5.0.0)
-  - DDLoggerSwift (5.0.0):
-    - DDLoggerSwift/core (= 5.0.0)
-  - DDLoggerSwift/core (5.0.0):
-    - DDUtils/ui (~> 5.0.0)
-    - DDUtils/utils (~> 5.0.0)
-  - DDUserDefaultManager (3.0.1):
-    - DDUserDefaultManager/core (= 3.0.1)
-  - DDUserDefaultManager/core (3.0.1):
-    - DDUtils/ui (~> 5.0.0)
-    - SnapKit (~> 5.0.0)
-  - DDUtils/core (5.0.2)
-  - DDUtils/ui (5.0.2):
+  - DDKitSwift/core (4.0.0):
+    - DDLoggerSwift (~> 5)
+    - DDUtils/ui (~> 5)
+    - DDUtils/utils (~> 5)
+  - DDLoggerSwift (5.3.1):
+    - DDLoggerSwift/core (= 5.3.1)
+  - DDLoggerSwift/core (5.3.1):
+    - DDUtils/ui (~> 5)
+    - DDUtils/utils (~> 5)
+  - DDUserDefaultManager (4.0.0):
+    - DDUserDefaultManager/core (= 4.0.0)
+  - DDUserDefaultManager/core (4.0.0):
+    - DDUtils/ui
+  - DDUtils/core (5.0.13)
+  - DDUtils/ui (5.0.13):
     - DDUtils/core
-  - DDUtils/utils (5.0.2):
+  - DDUtils/utils (5.0.13):
     - DDUtils/core
-  - SnapKit (5.0.1)
 
 DEPENDENCIES:
-  - DDKitSwift/core (~> 3.0.0)
-  - DDUserDefaultManager (~> 3.0.0)
+  - DDKitSwift/core (~> 4)
+  - DDUserDefaultManager (~> 4)
 
 SPEC REPOS:
   trunk:
@@ -30,15 +28,13 @@ SPEC REPOS:
     - DDLoggerSwift
     - DDUserDefaultManager
     - DDUtils
-    - SnapKit
 
 SPEC CHECKSUMS:
-  DDKitSwift: 3143fa7df258879898f08e16f2b59b1227661541
-  DDLoggerSwift: 3b6e451251ae07a6614d93493b7c4e512e155950
-  DDUserDefaultManager: dab98e5829db0f8bb70e8beb1cea9bc399eaacaa
-  DDUtils: 56b14d305b574751a3e5336717a6dfd56dd2c58c
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  DDKitSwift: a598e532242452a1edf78b9cbfa5a9452cdce3d8
+  DDLoggerSwift: c7c8776b2e56c741ef3c3de8cfaa3eadb2fcf813
+  DDUserDefaultManager: 549d9499f7168bdecc37d7d7dbd1d8ebd6f5763b
+  DDUtils: 9d1dab6514cbe6687348bde7ea0f6f2187b55222
 
-PODFILE CHECKSUM: 3b168be18d11c48fe6847bce27830900ef03397c
+PODFILE CHECKSUM: 19edbfe8d828e2db53abdcab29928a4802bbac75
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
